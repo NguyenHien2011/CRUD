@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Cross\XProject.Core\XProject.Core.csproj" />
+    <ProjectReference Include="..\..\Cross\XProject.Mapper\XProject.Mapper.csproj" />
+    <ProjectReference Include="..\..\Repository\XProject.Repository\XProject.Repository.csproj" />
+    <ProjectReference Include="..\XProject.Contract.Service\XProject.Contract.Service.csproj" />
+  </ItemGroup>
+
+</Project>
